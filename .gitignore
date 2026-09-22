@@ -46,3 +46,6 @@ Thumbs.db
 captures/
 .externalNativeBuild/
 .cxx/
+
+# AI Agent configuration & skills
+.agents/
