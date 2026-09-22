@@ -1,6 +1,6 @@
-# PocketBudget 🪙
+# Stashy 🪙
 
-**PocketBudget** is a modern, 100% offline, privacy-first personal finance and savings goal tracker for Android. Built with Jetpack Compose and Material 3, designed with an eye-friendly Nordic Slate palette.
+**Stashy** is a modern, 100% offline, privacy-first personal finance and savings goal tracker for Android. Built with Jetpack Compose and Material 3, designed with an eye-friendly Nordic Slate palette.
 
 ---
 
@@ -38,8 +38,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/PocketBudget.git
-cd PocketBudget
+git clone https://github.com/<your-username>/Stashy.git
+cd Stashy
 
 # Build debug APK
 ./gradlew assembleDebug

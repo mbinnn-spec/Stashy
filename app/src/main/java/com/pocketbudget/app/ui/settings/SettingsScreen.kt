@@ -113,7 +113,7 @@ fun SettingsScreen(
                 }
                 is SettingsEvent.ShareExportJson -> {
                     pendingExportJson = event.jsonContent
-                    exportFileLauncher.launch("pocketbudget_backup_${System.currentTimeMillis()}.json")
+                    exportFileLauncher.launch("stashy_backup_${System.currentTimeMillis()}.json")
                 }
             }
         }
@@ -285,7 +285,7 @@ fun SettingsScreen(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        text = "PocketBudget",
+                        text = "Stashy",
                         style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
                         color = MaterialTheme.colorScheme.onSurface
                     )
@@ -312,7 +312,7 @@ fun SettingsScreen(
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                     Text(
-                        text = "PocketBudget Team",
+                        text = "Stashy Team",
                         style = MaterialTheme.typography.bodySmall.copy(fontWeight = FontWeight.Medium),
                         color = MaterialTheme.colorScheme.onSurface
                     )

@@ -82,8 +82,8 @@ fun HomeScreen(
         ) {
             Column {
                 Text(
-                    text = "PocketBudget",
-                    style = MaterialTheme.typography.headlineMedium.copy(
+                    text = "Stashy",
+                    style = MaterialTheme.typography.titleLarge.copy(
                         fontWeight = FontWeight.Bold,
                         letterSpacing = (-0.5).sp
                     ),

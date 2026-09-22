@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PocketBudget"
+rootProject.name = "Stashy"
 include(":app")
